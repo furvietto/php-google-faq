@@ -42,6 +42,14 @@ header{
     margin: 0 auto;
 }
 
+ol{
+    padding: 10px 0 10px 10px
+}
+
+ol li{
+    padding:20px 0 10px 10px;
+}
+
 .faq{
     margin: 50px 0;
 }
@@ -55,6 +63,7 @@ header{
     width: 100px;
 }
 
+/* footer */
 footer{
     height: 6vh;
     background-color: lightgray;
@@ -89,13 +98,7 @@ ul li{
     width: 150px;
 }
 
-ol{
-    padding: 10px 0 10px 10px
-}
 
-ol li{
-    padding:20px 0 10px 10px;
-}
 
 h1{
     font-size: 1.5em;
