@@ -99,7 +99,7 @@ $faqs = [
     <main>
         <div class="container-main">
             <?php 
-                foreach ($faqs as $key => $faq) {
+                foreach ($faqs as $faq) {
                     // var_dump($faq["title"])
                     ?>
                     <div class="faq">
