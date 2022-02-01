@@ -7,13 +7,18 @@
 header{
     height: 15vh;
     border-bottom: 1px solid black;
-    padding: 20px;
+    padding: 10px 20px 0 20px;
 }
 
 .header-top{
     height: 60%;
     display: flex;
     justify-content: space-between;
+}
+
+.header-top .hamburger{
+    display: flex;
+    align-items: center;
 }
 
 .header-bottom{
@@ -37,8 +42,38 @@ header{
     margin: 50px 0;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 100px;
+}
+
+footer{
+    height: 10vh;
+}
+
+ol{
+    padding: 10px 0 10px 10px
+}
+
+ol li{
+    padding:20px 0 10px 10px;
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
 h2{
     margin-bottom: 20px;
+}
+
+h3{
+    margin: 20px 0;
 }
 
 p{
