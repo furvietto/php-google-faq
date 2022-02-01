@@ -97,7 +97,7 @@ $faqs = [
         </ul>
     </header>
     <main>
-        <div class="container">
+        <div class="container-main">
             <?php 
                 foreach ($faqs as $key => $faq) {
                     // var_dump($faq["title"])
@@ -114,7 +114,20 @@ $faqs = [
         </div>
     </main>
     <footer>
-        
+        <div class="container-footer">
+            <ul>
+                <li>Google</li>
+                <li>Tutto su Google</li>
+                <li>Privacy</li>
+                <li>Termini</li>
+            </ul>
+            <div class="select">
+                <select name="" id="">
+                    <option value="ita">italiano</option>
+                    <option value="eng">inglese</option>
+                </select>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
